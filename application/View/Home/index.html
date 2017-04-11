@@ -1,0 +1,38 @@
+<nav class="white">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo black-text">ERP2042</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
+                <li id="userName"></li>
+                <li id="logout"><a href="#logout" class="black-text">Deconnexion</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row"></div>
+    <div class="row">
+
+        <button class="btn waves-effect waves-light" type="submit" id="new_client">
+            Créer un nouveau client
+        </button>
+    </div>
+    <div class="row">
+        <table class="bordered">
+            <thead>
+            <tr>
+                <th data-field="name">Client</th>
+                <th data-field="price">Process en cours</th>
+                <th data-field="price">Process status</th>
+                <th data-field="status">Valider etape</th>
+                <th data-field="prev">Retour</th>
+            </tr>
+            </thead>
+
+            <tbody  id="prospectTable">
+
+            </tbody>
+        </table>
+    </div>
+</div>

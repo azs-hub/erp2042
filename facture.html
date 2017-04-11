@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+</head>
+
+<body>
+ <nav class="white">
+ 	<div class="container">
+	    <div class="nav-wrapper">
+	      <a href="#" class="brand-logo black-text">Logo</a>
+	    	<ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a class="black-text" href="prospect.html">Prospect</a></li>
+		        <li><a class="black-text" href="devis.html">Devis</a></li>
+		        <li><a class="black-text" href="facture.html">Facturation</a></li>
+	    	</ul>
+	    </div>
+	</div>
+  </nav>
+  <div class="container">
+		<div class="row"></div>
+		<div class="row">
+			<a class="waves-effect waves-light btn" href="add_facture.html">Créer un nouveau devis</a>
+		</div>
+		<div class="row">
+			<table class="bordered">
+		        <thead>
+		          <tr>
+		              <th data-field="id">Id</th>
+		              <th data-field="name">Client</th>
+		              <th data-field="price">Prix</th>
+		              <th data-field="status">Status</th>
+		              <th data-field="status">Action</th>
+		          </tr>
+		        </thead>
+
+		        <tbody>
+		         	<tr>
+			            <td>#123</td>
+			            <td>h&m</td>
+			            <td>€15 000</td>
+			            <td>Envoyé</td>
+			            <td>
+			            	<a class="waves-effect waves-light btn" href="#">Editer</a>
+			            </td>
+		         	</tr>
+		         	<tr>
+			            <td>#124</td>
+			            <td>h&m</td>
+			            <td>€15 000</td>
+			            <td>Envoyé</td>
+			            <td>
+			            	<a class="waves-effect waves-light btn" href="#">Editer</a>
+			            </td>
+		         	</tr>
+		        </tbody>
+	      </table>
+		</div>
+	</div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
